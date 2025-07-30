@@ -1,6 +1,7 @@
 h1{
   color:#195495;
   font-size:350%;
+  /*background-image:url('images/tournesol.jpg');*/
 
 }
 
@@ -145,42 +146,54 @@ img{
 
 }
 
-<<<<<<< HEAD
-.cards{
+/*<<<<<<< HEAD*/
+.cards {
   display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content:center;
-  }
-
-.card{
-  background: #4684b2c9;
-  text-decoration-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 8px 20px rgba(255, 107, 157, 0.15);
-    max-width: 300px;
-    transition: transform 0.3s ease;
-  }
-
-.card:hover{
-  transform: translateY(-10px);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+  font-family: "Leckerli One", cursive;
 }
 
-.card img{ width: 100%;
-    border-radius: 15px;
-    margin-bottom: 15px;}
-
-.card a{padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;}
-
-.card a:hover {
-  color: #f1f1f1;
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(255, 107, 157, 0.15);
+  width: 300px;
+  transition: transform 0.3s ease;
+  text-align: center;
 }
-=======
+
+.cards img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #d4556b;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: left;
+    line-height: 1.5;
+    color: #333;
+}
+
+  
+/*=======*/
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -201,4 +214,3 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
->>>>>>> b974547a46693c645625af3b9a78ffdebd33a9e3
