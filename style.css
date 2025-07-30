@@ -80,17 +80,17 @@ img{
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color:  #b8d3d9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #b8d3d9;
-  color: black;
+  color: #f1f1f1;
 }
 
 /* Style the "active" element to highlight the current page */
