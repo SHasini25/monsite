@@ -25,6 +25,12 @@ h2{
   color:#4684b2;
 }
 
+.Impressionnisme{
+  font-size:400%;
+  font-style:italic;
+  color:#195495;
+}
+
 p{
   font-size:120%;
 }
@@ -194,7 +200,7 @@ img{
     transform: translateY(-10px);
 }
 
-.card h3 {
+.card h2 {
     color: #d4556b;
     margin-bottom: 10px;
 }
@@ -206,6 +212,46 @@ img{
 }
 
   
+
+/*---------*/
+
+
+.fiches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.fiche {
+  background: #edc43a85;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(255, 107, 157, 0.15);
+  width: 30000px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.fiche:hover {
+    transform: translateY(-10px);
+}
+
+.fiche h2 {
+    color: #428cc4;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.fiche p {
+    text-align: left;
+    line-height: 1.5;
+    color: #333;
+}
 /*=======*/
 div.gallery {
   margin: 5px;
